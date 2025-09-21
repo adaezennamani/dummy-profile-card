@@ -1,18 +1,3 @@
-// async function fetchSixthUser() {
-//     try {
-// let request = await fetch("https://jsonplaceholder.typicode.com/users")
-// let response = await request.json();
-// //console.log("response is", response);
-// let sixthUser = response[5];
-// let sixthUserName =sixthUser.name;
-// console.log("Sixth User is", sixthUserName);
-//     }catch(error) {
-//         console.log("Error fetching Data")
-//     }
-// }
-
-// fetchSixthUser();
-//get the full name,username and so on using the method above
 
 async function fetchName() {
     try {
@@ -51,4 +36,5 @@ async function fetchName() {
 }
 
 fetchName()
+
 
