@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Mozilla+Headline:wght@200..700&family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.parent {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    gap: 50px;
+    background: #222;
+}
+
+.container {
+    background: #222;
+    box-shadow: 0 0 20px red;
+    padding: 50px;
+    padding-right: 100px;
+    padding-left: 20px;
+    border-radius: 12px;
+    font-size: 25px;
+}
+
+.full {
+    font-family: Montserrat, sans-serif;
+    font-weight: bold;
+    color: red;
+     font-size: 20px;
+}
+
+span {
+    line-height: 3rem;
+    font-weight: lighter;
+    color: white;
+    font-size: 15px;
+}
+
+.container-2 {
+    background: #222;
+    box-shadow: 0 0 20px red;
+    padding: 50px;
+    padding-right: 60px;
+    padding-left: 20px;
+    border-radius: 12px;
+    
+}
+
+.full-2 {
+    font-family: Montserrat, sans-serif;
+    font-weight: bold;
+    color: red;
+    font-size: 20px;
+}
+
+.container-3 {
+    background: #222;
+    box-shadow: 0 0 20px red;
+    padding: 50px;
+    padding-right: 100px;
+    padding-left: 20px;
+    border-radius: 12px;
+     font-size: 25px;
+
+}
+
+.full-3 {
+    font-family: Montserrat, sans-serif;
+    font-weight: bold;
+    color: red;
+     font-size: 20px;
+}
+
+.container:hover, .container-2:hover, .container-3:hover {
+    box-shadow: 0 0 20px #00ffff;
+    transition: 0.5s ease-in-out;
+    scale: 1.05;
+    cursor: pointer;
+}
+
+@media (max-width: 600px) {
+    .parent {
+        flex-direction: column;
+        gap: 60px;
+        padding: 20px;
+    }
+
+    .container:hover, .container-2:hover, .container-3:hover {
+    box-shadow: 0 0 20px #00ffff;
+    transition: 0.5s ease-in-out;
+    scale: 1.05;
+    cursor: pointer;
+}
+}
